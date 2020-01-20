@@ -41,6 +41,17 @@
 
 ::placeholder, body, button, input, select, textarea { font-family: var(--font)!important; }
 
+@keyframes bganim {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .container-3ayLPN, .option-96V44q.selected-rZcOL-, .option-96V44q.selected-rZcOL-:after, .searchResultsWrap-2DKFzt {
     background: var(--darkgrey5)!important;
